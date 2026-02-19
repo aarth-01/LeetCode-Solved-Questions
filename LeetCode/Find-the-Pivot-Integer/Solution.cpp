@@ -8,8 +8,8 @@
 8        while(mid<n){
 9            if(sum1>sum2) return -1;
 10
-11            long long sum1 = (mid*(mid+1))/2;
-12            long long sum2 = (n*(n+1))/2 - (mid*(mid-1))/2;
+11            int sum1 = (mid*(mid+1))/2;
+12            int sum2 = (n*(n+1))/2 - (mid*(mid-1))/2;
 13
 14            if(sum1 == sum2) return mid;
 15            mid++;
